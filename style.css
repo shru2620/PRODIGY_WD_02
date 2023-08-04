@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color:lavenderblush;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url(pic.webp);
+}
+.stopwatch{
+  width : 500px;
+  height: 200px;
+  background-color:blueviolet;
+  color:white;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2rem;
+  border: 20px solid palevioletred;
+  border-radius: 30px;
+}
+button{
+     padding: 0.7rem 1.1rem;
+     font-size: 1rem;
+     margin-top: 10px;
+     margin: 0.5rem;
+     border-radius: 10px;
+     border:5px solid palevioletred;
+     color: white;
+     margin-top: 30px;
+}
+#start{
+   background-color: dodgerblue;
+   margin-right: 3rem;
+   cursor: pointer;
+}
+#stop{
+   background-color:crimson;
+   cursor: pointer;
+}
+#reset{
+   background-color: gold;
+   margin-left: 3rem;
+   cursor: pointer;
+}
